@@ -12,3 +12,8 @@ Brainfuck, an esoteric programming language, embodies the epitome of minimalism 
 6. **`]`** : End a loop. If the byte at the pointer is nonzero, jump back to the command after the matching `[` command.
 7. **`.`** : Output the byte at the pointer as a character.
 8. **`,`** : Accept one byte of input, storing its value in the byte at the pointer.
+
+```brainfuck
+>+++++++++[<++++++++>-]<.>+++++++[<++++>-]<+.+++++++..+++.>>>++++++++[<++++>-]
+<.>>>++++++++++[<+++++++++>-]<---.<<<<.+++.------.--------.>>+.>++++++++++.
+```
